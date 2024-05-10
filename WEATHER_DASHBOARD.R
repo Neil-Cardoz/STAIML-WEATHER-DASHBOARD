@@ -189,7 +189,7 @@ server <- function(input, output, session) {
     lat <- click$lat
     lon <- click$lng
     
-    api_key <- "555814c377a5abb74259921f5e4630fc"  # Replace with your actual API key
+    api_key <- "xxx"  # Replace with your actual API key
     forecast_data <- fetch_weather_forecast(lat, lon, api_key)
     
     if (!is.null(forecast_data)) {
